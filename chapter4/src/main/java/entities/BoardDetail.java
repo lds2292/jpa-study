@@ -6,7 +6,7 @@ import javax.persistence.*;
 @SequenceGenerator(
         name = "BOARD_SEQ_GENERATOR",
         sequenceName = "BOARD_SEQ",
-        initialValue = 1, allocationSize = 1
+        initialValue = 1, allocationSize = 50
 )
 public class BoardDetail {
     @Id
@@ -15,6 +15,7 @@ public class BoardDetail {
 
     private String author;
 
+    @JoinColumn(referencedColumnName = )
     public Long getId() {
         return id;
     }

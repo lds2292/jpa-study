@@ -3,8 +3,8 @@
     <persistence-unit name="jpabook">
 <!--        <class>entities.Member</class>-->
 <!--        <class>entities.Board</class>-->
-<!--        <class>entities.BoardDetail</class>-->
-        <class>entities.TableBoard</class>
+        <class>entities.BoardDetail</class>
+<!--        <class>entities.TableBoard</class>-->
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
             <property name="javax.persistence.jdbc.user" value="sa"/>

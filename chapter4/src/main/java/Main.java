@@ -34,11 +34,11 @@ public class Main {
 //        em.persist(board);
 //        System.out.println("board.id = " + board.getId());
 
-//        BoardDetail boardDetail = new BoardDetail();
-//        boardDetail.setAuthor("어피치");
-//        System.out.println(">>> em.persist(boardDetail);");
-//        em.persist(boardDetail);
-//        System.out.println("boardDetail.id = " + boardDetail.getId());
+        BoardDetail boardDetail = new BoardDetail();
+        boardDetail.setAuthor("어피치");
+        System.out.println(">>> em.persist(boardDetail);");
+        em.persist(boardDetail);
+        System.out.println("boardDetail.id = " + boardDetail.getId());
 
 //        BoardDetail board1 = new BoardDetail();
 //        board1.setAuthor("라이언");
@@ -63,10 +63,10 @@ public class Main {
 //        System.out.println(">>> em.persist(board4);");
 //        em.persist(board4);
 
-        TableBoard board1 = new TableBoard();
-        board1.setAuthor("라이언");
-        System.out.println(">>> em.persist(board1);");
-        em.persist(board1);
+//        TableBoard board1 = new TableBoard();
+//        board1.setAuthor("라이언");
+//        System.out.println(">>> em.persist(board1);");
+//        em.persist(board1);
     }
 
 }
