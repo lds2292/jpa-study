@@ -15,7 +15,6 @@ public class BoardDetail {
 
     private String author;
 
-    @JoinColumn(referencedColumnName = )
     public Long getId() {
         return id;
     }
