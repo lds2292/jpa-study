@@ -8,13 +8,17 @@
         <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="corretto-11" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/chapter10" />
             <option value="$PROJECT_DIR$/chapter3" />
             <option value="$PROJECT_DIR$/chapter4" />
             <option value="$PROJECT_DIR$/chapter5" />
             <option value="$PROJECT_DIR$/chapter6" />
+            <option value="$PROJECT_DIR$/chapter7" />
+            <option value="$PROJECT_DIR$/chapter8" />
           </set>
         </option>
       </GradleProjectSettings>
